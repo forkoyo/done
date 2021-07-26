@@ -1,0 +1,68 @@
+@charset"utf-8";
+
+/*　ヘッダーのリスト　*/
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    flex-basis: calc(100%/7);
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    z-index: 100;
+}
+
+nav li a {
+    display: block;
+    /* メニュー項目の背景色 */
+    line-height: 40px;
+    /* メニュー項目のリンクの高さ(「メニュー項目の高さ」と一致させる) */
+    text-align: center;
+    /* メインメニューの文字列の配置(中央寄せ) */
+    text-decoration: none;
+    /* メニュー項目の装飾(下線を消す) */
+    width: 100%;
+    height: 100%;
+}
+
+
+.subnav {
+    border-width: 2px 4px 2px 2px;
+    /* サブメニュー全体の枠線の太さ */
+    border-style: solid;
+    /* サブメニュー全体の枠線の線種 */
+    position: absolute;
+    display: none;
+}
+
+.subnav li {
+    width: 100%;
+    /* サブメニュー1項目の横幅 */
+    height: 40px;
+    /* サブメニュー1項目の高さ */
+}
+
+.subnav li a {
+    line-height: 40px;
+    /* サブメニュー1項目の行の高さ(「サブメニュー1項目の高さ」と合わせる) */
+    text-align: center;
+    /* サブメニュー1項目の項目名の配置(左寄せ) */
+}
+
+
+nav li:hover > .subnav {
+    display: block;
+}
