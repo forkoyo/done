@@ -140,7 +140,7 @@ strong{
 /* 配色、字体設定　*/
 
 html {
-    background-color: #F2F2F2;
+    background-color: #56b2b2;
     /*ベ-スカラー*/
     font-family: 'M PLUS 1p', sans-serif;
     /*メイン字体*/
@@ -154,31 +154,32 @@ body {
 .logotext {
     font-family: 'Noto Serif JP', serif;
     /*サブ字体*/
-    color: #02590F;
+    color: #006a6c;
     /*アクセントカラー*/
 }
 
 .logotext h1{
-    font-weight: 700;
+    font-weight: 900;
+    font: bold;
 }
 
 .logotext h2{
-    font-weight: 700;
+    font-weight: 900;
 }
 
 main h3 {
-    border-left-color: #02590F;
+    border-left-color: #006a6c;
     /*アクセントカラー*/
 }
 
 footer {
-    background: #02590F;
+    background: #006a6c;
     /*アクセントカラー*/
     color: white;
 }
 
 .button1 li {
-    background-color: #97ED8A;
+    background-color: #FFFACD;
     /*メインカラー*/
 }
 
@@ -187,47 +188,47 @@ footer {
 }
 
 .button1 a:hover {
-    background-color: #02590F;
+    background-color: #006a6c;
     /*アクセントカラーかメインカラーの濃い色*/
     color: white;
 }
 
 nav {
-    background-color: #97ED8A;
+    background-color: #006a6c;
     /*メインカラー*/
-    border-top: 2px solid #02590F;
+    border-top: 2px solid #CEF6E3;
     /*枠線*/
     /* バーの上端線 */
-    border-bottom: 2px solid #02590F;
+    border-bottom: 2px solid #CEF6E3;
     /*枠線*/
     /* バーの下端線 */
 }
 
 nav li {
-    border: 1px solid #02590F;
+    border: 1px solid #CEF6E3;
     /*枠線*/
 }
 
 
 
 nav li a {
-    color: black;
+    color: white;
     /* メニュー項目の文字色 */
     font-weight: 600;
 }
 
 nav li a:hover {
-    background-color: #02590F;
+    background-color: #006a6c;
     /*アクセントカラー*/
     color: white;
 }
 
 .subnav {
-    border-color: #02590F;
+    border-color: #006a6c;
 }
 
 .subnav li {
-    border: 1.3px solid #97ED8A;
+    border: 1.3px solid #CEF6E3;
 }
 
 .subnav li a {
@@ -237,18 +238,18 @@ nav li a:hover {
 }
 
 ul.subnav a:hover {
-    background-color: #02590F;
+    background-color: #006a6c;
     /*アクセントカラー*/
     color: white;
 }
 
 .table1 th {
-    background-color: #97ED8A;
+    background-color: #E0F8E6;
     /*メインカラー*/
 }
 
 .table1 th li {
-    background-color: #97ED8A;
+    background-color: #E0F8E6;
     /*メインカラー*/
     color: black;
 }
@@ -259,7 +260,7 @@ ul.subnav a:hover {
 
 
 .table1 a:hover {
-    background-color: #02590F;
+    background-color: #006a6c;
     /*アクセントカラー*/
     color: white;
 }
@@ -271,7 +272,7 @@ ul.subnav a:hover {
 @media screen and (max-width:768px) {
 
     .nav-list li {
-        border: 1px solid #02590F;
+        border: 1px solid #CEF6E3;
         /*枠線*/
     }
 
