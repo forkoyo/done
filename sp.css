@@ -30,11 +30,17 @@
 
     }
 
-    .letter-spacing {
+    .letter-spacing1 {
         letter-spacing: 0.3em
     }
 
+    .letter-spacing2 {
+        letter-spacing: 0.3em
+    }
 
+    .letter-spacing3 {
+        letter-spacing: 0.2em
+    }
 
     .logotext h1 {
         font-size: 7vw;
@@ -59,7 +65,7 @@
 
     nav {
         text-align: center;
-        height: 28vw;
+        height: 54vw;
 
     }
 
@@ -74,16 +80,16 @@
         height: 13.3vw;
     }
 
-    .nav-list li:nth-child(-n+4) {
-        flex-basis: 25%
+    .nav-list li:nth-child(n+2) {
+        flex-basis: 50%
     }
 
-    .nav-list li:nth-child(n+5) {
-        flex-basis: calc(100%/3)
+    .nav-list li:nth-child(1) {
+        flex-basis: 100%
     }
 
     .nav-list a {
-        font-size: 3.8vw;
+        font-size: 4.5vw;
         text-align: center;
         padding-top: 0.2em;
     }
